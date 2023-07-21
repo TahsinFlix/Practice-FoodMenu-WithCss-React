@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(184, 184, 184);
+}
+
+.navbar .nav_items{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 3rem;
+}
+
+.nav_items button{
+    padding: .6rem 2rem;
+    margin: 0 1rem;
+    font-size: .95rem;
+    font-weight: 600;
+    background-color: rgb(236, 236, 236);
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.nav_items button:hover{
+    background-color: rgb(251, 117, 68);
+}
+
+
+
+/* ============== Card Section ============= */
+
+.menuCard{
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(18.75rem, 25.25rem));
+    grid-gap: 50px;
+    margin-bottom: 1rem;
+}
+
+.menuCard .card_container{
+    margin-top: 2rem;
+}
+
+.menuCard .card{
+    background-color: white;
+    min-width: 25rem;
+    min-height: 20rem;
+    /* margin: 0 2rem; */
+    margin-left: 2rem;
+    border-radius: 10px;
+    padding: 0 2rem;
+}
+
+.card h5{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem 0;
+    color: rgb(97, 97, 97);
+    text-transform: capitalize;
+}
+
+.card .food_details h1{
+    font-size: 2.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: .4rem;
+}
+
+.food_details p{
+    font-size: 1.04rem;
+    color: rgb(69, 69, 69); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+/* .card_img_btn{
+    display: flex;
+    position: relative;
+} */
+
+.card_img_btn img{
+    width: 100%;
+    height: 20rem;
+    margin: 2rem 0;
+}
+
+.card_img_btn button{
+    /* height: 10%; */
+    padding: .6rem 1.4rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(246, 226, 45);
+    border: 1px solid goldenrod;
+    font-size: .85rem;
+    cursor: pointer;
+}
+
