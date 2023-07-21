@@ -1,7 +1,7 @@
 {
-  "homepage": "https://TahsinFlix.github.io/Practice-FoodMenu-WithCss-React",
+  "homepage": "https://tahsinFlix.github.io/Practice-FoodMenu-WithCss-React",
   "name": "foodmenu",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
